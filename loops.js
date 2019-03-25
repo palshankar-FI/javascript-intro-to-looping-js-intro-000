@@ -1,3 +1,10 @@
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
 function forLoop(array) {
   for (let i = 0; i < 25; i += 1) {
     array.push(`"I am ${i} strange loop${i === 0 ?  : s}."`);
@@ -18,3 +25,5 @@ function doWhileLoop(num) {
     num -= 1;
   } while (num > 0);
 }
+
+
