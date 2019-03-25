@@ -8,8 +8,8 @@ function incrementVariable() {
 function forLoop(arr) {
   for (let i = 0; i < 25; i += 1) {
     if (i === 0)
-      arr.push(`I am ${i} strange loop${i === 0 ?  : s}.`); 
-    else   
+      arr.push(`I am ${i} strange loop${i === 0 ?  : s}.`);
+    else
       arr.push(`I am ${i} strange loop${i === 0 ?  : s}.`);
     // arr.push(`I am ${i} strange loop.`);
   }
