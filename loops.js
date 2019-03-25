@@ -13,6 +13,7 @@ function forLoop(arr) {
       arr.push(`"I am ${i} strange loops.""`);
     // arr.push(`I am ${i} strange loop.`);
   }
+  return(arr);
 }
 
 function whileLoop(n) {
